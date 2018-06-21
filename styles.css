@@ -1,0 +1,202 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+background-image: linear-gradient(-170deg, #FFFEFF 90%, #D7FFFE 10%);
+ background-blend-mode:screen;
+    color: rgba(51, 68, 85, 1);
+    font-family: sans-serif;
+
+}
+
+/*color:rgba(116,95,181,1);*/
+
+.headNav {
+
+    height: 80px;
+    background: linear-gradient(240deg, #185a9d 0%, #ff8eaf 50%);
+    color: rgba(255, 255, 255, 1);
+    margin: 0em 0em 0.5em 0em;
+    box-shadow: 0 0 10px 1px rgba(102, 119, 136, 1);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+/*.logo {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 0 0;
+
+}*/
+
+.tagLine {
+    margin: 0 0 0 10px;
+    color: rgba(6, 5, 1);
+    font-size: 18px;
+}
+
+h1 {
+
+    margin: 0 0 0 0.2em;
+    padding: 0;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+h2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.containers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* box-shadow: 0px -5px 5px -2px rgba(102, 119, 136, 0.55), 0px 5px 5px -2px rgba(102, 119, 136, 0.55);*/
+
+.beliefBox {
+    width: 100%;
+    padding: 2px 2px 2px 2px;
+    margin: 0.2em 1em 0.6em 1em;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 2px rgba(102, 119, 136, 0.8);
+    background: linear-gradient(50deg, #6666ff, #4c4c9f);
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.quotes {
+    margin: 2px 2px 5px 2px;
+    text-align: center;
+}
+/*background: linear-gradient(10deg, #84fab0 5%, #8fd31f51 95%);*/
+.skills {
+    width: 100%;
+    max-height: inherit;
+    color: #ffffff;
+    margin: 0em 1em 0.6em 1em;
+    box-shadow: 0 0 10px 1px rgba(102, 119, 136, 0.6);
+    background: linear-gradient(20deg,#00FFFF  5%, #00FFA1 95%);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+}
+
+#circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin:5px auto;
+    text-align: center;
+    box-shadow: 0 0 10px 0px rgba(102, 119, 136, 1);
+}
+
+#circle:hover {
+    box-shadow: 0 0 5px 1px #fff;
+}
+
+#circle span {
+    margin: 30px 10px 30px 10px;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+
+/*.html{
+    background:linear-gradient(to bottom,#f0f8ff 0%,#f0f8ff 10%, #67b8ff 0%);
+}*/
+
+.html {
+    background: linear-gradient(to bottom, #ffffff 10%,#00FFA1 0%, #00FFA1  90%);
+}
+
+.css {
+    background: linear-gradient(to bottom, #ffffff 25%,#00FFA1 0%, #00FFA1  75%);
+}
+
+.py {
+    background: linear-gradient(to bottom, #ffffff 20%, #00FFA1 0%, #00FFA1 80%);
+}
+
+.js {
+    background: linear-gradient(to bottom, #ffffff 40%, #00FFA1 0%,#00FFA1  60%);
+}
+
+
+.lsixty {
+    font-size:14px;
+    margin:5px;
+}
+
+.raspi {
+    background: linear-gradient(to bottom, #ffffff 15%, #00FFA1   0%, #00FFA1 85%);
+}
+
+.others {
+    background: linear-gradient(to bottom, #ffffff 50%, #00FFA1   0%, #00FFA1 50%);
+}
+.works{
+    width: 100%;
+    max-height: inherit;    
+    color: #ffffff;
+    margin: 0em 1em 0.5em 1em;
+    box-shadow: 0 0 10px 1px rgba(102, 119, 136, 0.6);
+    background: linear-gradient(100deg,#63e3ff 5%, #b066fe 95%);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#workBox{
+    
+    width:250px;
+    height:210px; 
+    margin: 0px 25px 10px 22px;
+    text-align: center;
+    box-shadow: 0em 0em 5px 0px rgba(102, 119, 136, 0.6) ;
+}
+.works img{
+    width:150px;
+    height:150px;
+}
+.works p{
+   margin: 0; 
+}
+.footer{
+  width: 100%;
+    max-height: inherit;    
+    color: #ffffff;
+    margin: 0em 1em 0em 1em;
+    padding: 0px 0px 10px 0px;
+    box-shadow: 0 0 10px 1px rgba(102, 119, 136, 0.6);
+    background: linear-gradient(10deg, #00c6ff 5%, #0072ff 95%);
+    border-radius: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.accounts{
+    margin: 0 auto;
+    font-size:35px;
+    text-align: center;
+    
+}
+.accounts img{
+    width:30px;
+    height: 30px;
+}
+#icons{
+    margin: 0px 10px 0px 15px;
+    text-align: center;
+    box-shadow: 0em 0em .1em 0.001em ;
+}
