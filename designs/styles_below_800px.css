@@ -1,0 +1,42 @@
+header {
+
+    margin: 0 0 5px 0;
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.beliefBox {
+    margin: 0 0 10px 0;
+    border-radius: 35px 0;
+
+}
+
+
+.skills {
+    margin: 0 0 10px 0;
+    border-radius: 0 35px;
+}
+
+.works {
+    margin: 0 0 10px 0;
+    border-radius: 35px 0;
+}
+
+#workBox {
+    margin: 10px auto;
+}
+
+#icons {
+    margin-right: 0;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 0 0 0.1em 0.001em;
+}
+
+footer {
+    margin: 0;
+    border-radius: 0 35px;
+}

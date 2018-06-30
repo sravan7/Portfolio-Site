@@ -1,63 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="title.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="icon" href="img/title.png">
+
+    <link rel="stylesheet" href="designs/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="designs/styles_below_800px.css">
     <title>
         Sravan Varma
     </title>
 
-    <style>
-        @media only screen and (max-width:800px) {
-
-            .headNav {
-
-                margin: 0px 0px 5px 0px;
-            }
-            .beliefBox {
-                margin: 0px 0px 10px 0px;
-                border-radius: 35px 0px 35px 0px;
-            }
-            .skills {
-                margin: 0px 0px 10px 0px;
-                border-radius: 0px 35px 0px 35px;
-            }
-            .works {
-                margin: 0px 0px 10px 0px;
-                border-radius: 35px 0px 35px 0px;
-            }
-            #workBox{
-                margin:10px auto;
-            }
-            .footer{
-                margin:0;
-                border-radius:0px 35px 0px 35px;
-            }
-    </style>
-
 </head>
 
 <body>
-    <nav class="headNav">
+    <header>
         <div class="title">
             <h1>Sravan Varma</h1>
             <p class="tagLine">Full of Radical Thoughts</p>
         </div>
 
         <!--<img class="logo" src="title.png" alt="logo is question mark">-->
-    </nav>
+    </header>
     <div class="containers">
-        <div class="beliefBox">
+        <section class="beliefBox">
             <h2>I Belive In</h2>
             <p class="quotes">&#10077 Take on responsibility! Work for the things you believe in. If you do not, you are surrendering your fate to others &#10078 &#8211 <em>APJ Abdul Kalam </em></p>
             <p class="quotes">&#10077 Ancient Rule of Twenty-one: if you do anything for twenty-one days in a row, it will be installed as a habit. &#10078 &#8211 <em>Robin S.Sharma</em></p>
             <p class="quotes">&#10077 The question isn't who is going to let me; It's who is going is stop me &#10078 &#8211 <em>Ayan Rand</em></p>
             <p class="quotes">&#10077 Rich people Buy Luxuries Last, while the PoorBuy Luxuries First &#10078 &#8211 <em>Robert Kiyosaki</em></p>
-        </div>
+        </section>
 
         <div class="skills">
             <h2>Skills</h2>
@@ -86,48 +61,58 @@
         <div class="works">
             <h2>featured Work</h2>
             <div id="workBox" class="nlp">
-                <img src="img/nlp.jpg" alt="natural langauge processing">
+                <img class="works_img" src="img/nlp.jpg" alt="natural langauge processing">
                 <p>NLP on TripAdvisor's customers reviews</p>
             </div>
 
             <div id="workBox" class="onions">
-                <img src="img/onion.png" alt="grpah of onion price data">
+                <img class="works_img" src="img/onion.png" alt="grpah of onion price data">
                 <p>Data visualization on Onions prices in India from 1998-2014</p>
             </div>
 
             <div id="workBox" class="pixerlArt">
-                <img src="img/pixel.png" alt="pixel art maker">
+                <img class="works_img" src="img/pixel.png" alt="pixel art maker">
                 <p>Pixel art maker done as part of Google Udacity scholarship programme</p>
             </div>
 
             <div id="workBox" class="medicine">
-                <img src="img/medicine.jpg" alt="medicines">
+                <img class="works_img" src="img/medicine.jpg" alt="medicines">
                 <p>An IOT based medicine dispencer</p>
             </div>
             <div id="workBox" class="sprayer">
-                <img src="img/sprayer.png" alt="robot sprayer">
+                <img class="works_img" src="img/sprayer.png" alt="robot sprayer">
                 <p>Protoytpe of spraying robot</p>
             </div>
 
         </div>
 
-        <div class="footer">
+        <footer>
             <h2>SocialBox</h2>
             <div class="accounts">
-                <a id="icons" href="https://github.com/sravan7" target="_blank" > 
-                <i class="fa fa-github"></i> 
+                <a id="icons" href="https://github.com/sravan7" target="_blank"> 
+                    <i class="fa fa-github"></i> 
                 </a>
-                <a id="icons" href="#"><img src="img/hackeRank.png" alt="hakcer Rank logo"></a>
-                <a id="icons" href="#"><img src="img/hackerEarth.png" alt="hacker Earth logo"></a>
+                <a id="icons" href="https://www.hackerrank.com/sravan7">
+                    <img src="img/hackeRank.png" alt="hakcer Rank logo" class="accounts_logo"> 
+                </a>
+                <a id="icons" href="https://www.hackerearth.com/@muppallasravankumar">
+                    <img src="img/hackerEarth.png" alt="hacker Earth logo" class="accounts_logo">
+                </a>
 
-                <a id="icons" href="#" > <i class="fa fa-facebook"></i></a>
+                <a id="icons" href="https://twitter.com/MuppallaSravan">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a id="icons" href="#"> 
+                    <i class="fa fa-facebook"> </i>
+                </a>
 
-                <a id="icons" href="#"><i class="fa fa-twitter"></i> </a>
+
             </div>
 
-        </div>
+        </footer>
     </div>
 
 
 </body>
+
 </html>
